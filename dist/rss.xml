@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>笨蛋弥生的平行世界</title><description>创造生命的逃逸之线</description><link>https://blog.kagurayayoi.top/</link><language>en</language><item><title>一切的起点</title><link>https://blog.kagurayayoi.top/posts/sitelog/2024-11-11/%E4%B8%80%E5%88%87%E7%9A%84%E8%B5%B7%E7%82%B9/</link><guid isPermaLink="true">https://blog.kagurayayoi.top/posts/sitelog/2024-11-11/%E4%B8%80%E5%88%87%E7%9A%84%E8%B5%B7%E7%82%B9/</guid><description>创造生命的逃逸之线</description><pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;岁纳京子镇楼&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;基于astro框架的新博客仍在添添补补，其实工作量并不是特别的大，主要是头疼wordpress拿掉后一些功能的替补。&lt;/p&gt;
+&lt;p&gt;博客一共迭代了三代，迄今共四年。&lt;/p&gt;
+&lt;p&gt;第一代开始于2020年8月16日，搭建在GitHub Pages上，用了&lt;a href=&quot;https://github.com/mzlogin&quot;&gt;mzlogin&lt;/a&gt;开发的模板，底子上其实是Jekyll框架。&amp;lt;br&amp;gt;
+p.s. 当天正好是b站站娘2233十周年&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;fjaxzhy/fjaxzhy.github.io&quot;}&lt;/p&gt;
+&lt;p&gt;第二代开始于2022年4月28日，托管于腾讯云Lighthouse，从头用wordpress捣腾了一番，采用了广受好评的Argon主题。
+搭建过程中有诸多不顺，倒是也让我全都顺利解决，ICP备案也申请下来了。 &amp;lt;br&amp;gt;
+匆匆两年，专科毕业，也有过不少想写的，最后都是懒了，博客摆着成了花瓶。&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;solstice23/argon-theme&quot;}&lt;/p&gt;
+&lt;p&gt;第三代，就是目前的版本。
+一是Fuwari主题确实简约好看，二是wordpress那套页面出了点问题，我也懒得修，干脆直接掀了，重新弄一套，看看能不能在求学的新阶段记录点东西。 &amp;lt;br&amp;gt;
+今天还是双11，要考虑下要不要剁手买点东西 XD&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;fjaxzhy/blog-fuwari&quot;}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本站于2024年11月11日开始试运行&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;弥生&lt;/em&gt; &amp;lt;br&amp;gt;
+&lt;em&gt;2024.11.11  1:30am&lt;/em&gt; &amp;lt;br&amp;gt;
+&lt;em&gt;于福建福州&lt;/em&gt;&lt;/p&gt;
+</content:encoded></item><item><title>博客建设待办清单</title><link>https://blog.kagurayayoi.top/posts/sitelog/todo/</link><guid isPermaLink="true">https://blog.kagurayayoi.top/posts/sitelog/todo/</guid><description>列举一些待办的工作</description><pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;准备试着捣腾的玩意&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] 友链模块&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;应当在左侧面板加一块，虽然我也没什么朋友（&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Bangumi Card&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;番剧详情，来自bangumi&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Steam Game Card&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;游戏信息，来自steam&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] Netease Muisc Card&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;音乐卡片，来自网易云音乐，最好能播放&lt;/p&gt;
+&lt;p&gt;&amp;lt;hr&amp;gt;&lt;/p&gt;
+&lt;p&gt;要求是不是有点太多了，有生之年清单（&lt;/p&gt;
+</content:encoded></item></channel></rss>
