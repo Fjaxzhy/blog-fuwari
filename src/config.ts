@@ -59,19 +59,29 @@ export const profileConfig: ProfileConfig = {
       url: 'mailto:admin@kagurayayoi.top',
     },
     {
-      name: 'BiliBili',
-      icon: 'fa6-brands:bilibili',
-      url: 'https://space.bilibili.com/157623239',
-    },
-    {
       name: 'Telegram',
       icon: 'fa6-brands:telegram',
       url: 'https://t.me/kagurayayoi',
     },
+    // {
+    //   name: 'BiliBili',
+    //   icon: 'fa6-brands:bilibili',
+    //   url: 'https://space.bilibili.com/157623239',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/fjaxzhy',
+    },
+    {
+      name: 'Bangumi',
+      icon: 'fa6-brands:bilibili',
+      url: 'https://bgm.tv/user/kagurayayoi',
+    },
+    {
+      name: 'Steam',
+      icon: 'fa6-brands:steam',
+      url: 'https://steam community.com/id/kagurayayoi',
     },
   ],
 }
