@@ -82,3 +82,11 @@ export type BlogPostData = {
   nextTitle?: string
   nextSlug?: string
 }
+
+export type FriendsConfig = {
+  display: number
+  links: {
+    name: string
+    url: string
+  }[]
+}
