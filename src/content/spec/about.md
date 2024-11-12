@@ -7,6 +7,8 @@
 
 **KaguraYayoi**是常用的codename.
 
+GPG Fingerprint: `91C3 B6FE 2F4C 125D 7A49  DEB6 7E3B 570D 86F9 C118`
+
 ## Tech Stack
 什么都写点，什么都不精，全沾工程师（
 
