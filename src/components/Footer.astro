@@ -2,13 +2,6 @@
 
 import { profileConfig } from '../config'
 import { url } from '../utils/url-utils'
-
-// footer timer
-const urodz: Date = new Date('8/16/2020')
-const now: Date = new Date()
-const ile = now.getTime() - urodz.getTime()
-const dni = Math.floor(ile / (1000 * 60 * 60 * 24))
-const timer = `本站至${urodz.getFullYear()}年${urodz.getMonth()}月${urodz.getDate()}日以来, 已运行${dni}天`
 ---
 
 <!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
@@ -34,7 +27,7 @@ const timer = `本站至${urodz.getFullYear()}年${urodz.getMonth()}月${urodz.g
     </div>
     <!-- Timer -->
     <div class="transition text-50 text-sm">
-        <span>{timer}</span>
+        <span class="timer"></span>
     </div>
     <!-- PoweredBy -->
     <div class="transition text-50 text-sm">
@@ -46,3 +39,18 @@ const timer = `本站至${urodz.getFullYear()}年${urodz.getMonth()}月${urodz.g
         </span>
     </div>
 </div>
+
+<script>
+    // timer
+    const startDate = "2020/08/16";
+    function siteRun(d: string) {
+        let now = new Date();
+        let start = Date.parse(d);
+        let days: number = (now.getTime()-start)/24/60/60/1000
+        return days.toString().split('.')[0];
+    } 
+    const timer = document.querySelectorAll('span.timer');
+    timer.forEach((span)=> {
+        span.innerHTML = `自${startDate}以来，本站已运行${siteRun(startDate)}天`;
+    });
+</script>
