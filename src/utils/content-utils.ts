@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content'
 import { friendsConfig } from '@/config'
-import type { BlogPostData, FriendsConfig } from '@/types/config'
+import type { BlogPostData } from '@/types/config'
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 
@@ -91,6 +91,8 @@ export async function getCategoryList(): Promise<Category[]> {
 
 export type Friend = {
   name: string
+  site: string
+  description: string
   url: string
 }
 
@@ -100,7 +102,12 @@ export async function getFriendList(): Promise<Friend[]> {
   let count = 0
   for (const item of data) {
     if (count < friendsConfig.display) {
-      ret.push({ name: item.name, url: item.url })
+      ret.push({
+        name: item.name,
+        site: item.site,
+        description: item.description,
+        url: item.url,
+      })
       count++
     } else {
       break

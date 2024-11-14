@@ -87,6 +87,8 @@ export type FriendsConfig = {
   display: number
   links: {
     name: string
+    site: string
+    description: string
     url: string
   }[]
 }

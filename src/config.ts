@@ -97,7 +97,9 @@ export const friendsConfig: FriendsConfig = {
   display: 4,
   links: [
     {
-      name: "北原花羽栖息地",
+      name: "kihanahare",
+      site: "北原花羽栖息地",
+      description: "老婆老婆",
       url: "https://kihanahare.github.io/HanahareHeaven/",
     },
   ],
