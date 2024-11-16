@@ -42,10 +42,10 @@ export function FriendCardComponent(props, c) {
     `script#${cardUuid}-script`,
     { type: 'text/javascript', defer: true },
     `
-      avatarEl = document.getElementById('${cardUuid}-avatar');
       fetch('https://api.kagurayayoi.top/favicon.php?site=${url}')
         .then(response => response.json())
         .then(data => {
+          const avatarEl = document.getElementById('${cardUuid}-avatar');
           avatarEl.style.backgroundImage = 'url(' + data.url + ')';
           console.log("[FRIEND-CARD] Loaded site favicon for ${site} | ${cardUuid}.");
         }).catch(err => {
