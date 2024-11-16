@@ -10,7 +10,6 @@ import { h } from 'hastscript'
  * @returns {import('mdast').Parent}
  */
 export function FriendCardComponent(props, c) {
-
   const data = props.data.split('|')
   if (data.length !== 4)
     return h('div', { class: 'hidden' }, ['Invalid directive.'])
@@ -22,11 +21,7 @@ export function FriendCardComponent(props, c) {
   const cardUuid = `FC${Math.random().toString(36).slice(-6)}`
 
   const nAvatar = h(`div#${cardUuid}-avatar`, { class: 'gc-avatar fc-avatar' })
-  const nLink = h(
-    `span#${cardUuid}-link`,
-    { class: 'fc-link' },
-    url,
-  )
+  const nLink = h(`span#${cardUuid}-link`, { class: 'fc-link' }, url)
   const nTitle = h('div', { class: 'gc-titlebar' }, [
     h('div', { class: 'gc-titlebar-left' }, [
       h('div', { class: 'gc-owner' }, [
@@ -47,7 +42,7 @@ export function FriendCardComponent(props, c) {
     `script#${cardUuid}-script`,
     { type: 'text/javascript', defer: true },
     `
-      fetch('https://api.kagurayayoi.top/favicon.php?site=${url}', { mode: 'no-cors'})
+      fetch('https://api.kagurayayoi.top/favicon.php?site=${url}')
         .then(response => response.json())
         .then(data => {
           const avatarEl = document.getElementById('${cardUuid}-avatar');
@@ -69,11 +64,6 @@ export function FriendCardComponent(props, c) {
       target: '_blank',
       site,
     },
-    [
-      nTitle,
-      nDescription,
-      h('div', { class: 'gc-infobar' }, [nLink]),
-      nScript,
-    ],
+    [nTitle, nDescription, h('div', { class: 'gc-infobar' }, [nLink]), nScript],
   )
 }
