@@ -2,7 +2,7 @@
 #dist/
 .cache
 
-# editor
+# editor conf
 .vscode
 
 # generated types
