@@ -14,6 +14,7 @@ import remarkDirective from 'remark-directive' /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from 'remark-github-admonitions-to-directives'
 import remarkMath from 'remark-math'
 import { AdmonitionComponent } from './src/plugins/rehype-component-admonition.mjs'
+import { FriendCardComponent } from './src/plugins/rehype-component-friend-card.mjs'
 import { GithubCardComponent } from './src/plugins/rehype-component-github-card.mjs'
 import { parseDirectiveNode } from './src/plugins/remark-directive-rehype.js'
 import { remarkExcerpt } from './src/plugins/remark-excerpt.js'
@@ -85,6 +86,7 @@ export default defineConfig({
         {
           components: {
             github: GithubCardComponent,
+            friend: FriendCardComponent,
             note: (x, y) => AdmonitionComponent(x, y, 'note'),
             tip: (x, y) => AdmonitionComponent(x, y, 'tip'),
             important: (x, y) => AdmonitionComponent(x, y, 'important'),
