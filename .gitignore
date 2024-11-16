@@ -2,6 +2,9 @@
 #dist/
 .cache
 
+# editor
+.vscode
+
 # generated types
 .astro/
 
