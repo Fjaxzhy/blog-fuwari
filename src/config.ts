@@ -99,8 +99,14 @@ export const friendsConfig: FriendsConfig = {
     {
       name: "kihanahare",
       site: "北原花羽栖息地",
-      description: "老婆老婆",
       url: "https://kihanahare.github.io/HanahareHeaven/",
+      description: "是网安大佬，wsl",
     },
+    {
+      name: "rescld",
+      site: "残云的学习笔记",
+      url: "https://www.rescld.cn",
+      description: "努力考研的舍友",
+    }
   ],
 }
