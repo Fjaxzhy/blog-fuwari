@@ -9,7 +9,7 @@ export const ko: Translation = {
 
   [Key.tags]: '태그',
   [Key.categories]: '카테고리',
-  [Key.friends]: 'Friends',
+  [Key.links]: 'Links',
   [Key.recentPosts]: '최근 게시물',
 
   [Key.comments]: '댓글',
