@@ -31,7 +31,7 @@ export function FriendCardComponent(props, c) {
       h('div', { class: 'gc-divider' }, '/'),
       h('div', { class: 'gc-repo' }, site),
     ]),
-    h('div', { class: 'github-logo hidden' }),
+    h(`div#${cardUuid}-status`, { class: 'fc-ping' }, ' N/A'),
   ])
   const nDescription = h(
     `div#${cardUuid}-description`,
@@ -46,7 +46,15 @@ export function FriendCardComponent(props, c) {
         .then(response => response.json())
         .then(data => {
           const avatarEl = document.getElementById('${cardUuid}-avatar');
+          const statusEl = document.getElementById('${cardUuid}-status');
           avatarEl.style.backgroundImage = 'url(' + data.url + ')';
+          if (data.code === 200) {
+            statusEl.classList.add("--s");
+            statusEl.innerText = ' OK';
+          } else {
+            statusEl.classList.add("--f");
+            statusEl.innerText = ' NC';
+          }
           console.log("[FRIEND-CARD] Loaded site favicon for ${site} | ${cardUuid}.");
         }).catch(err => {
           console.warn("[FRIEND-CARD] (Error) Loading site favicon for ${site} | ${cardUuid}.");
