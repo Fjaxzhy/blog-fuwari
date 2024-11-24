@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'assets/images/banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    src: 'assets/images/banner/69618131_p0.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    position: 'bottom',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: 'October 2024 @ Gracile',              // Credit text to be displayed
-      url: 'https://www.pixiv.net/artworks/123862605'                // (Optional) URL link to the original artwork or artist's page
+      text: 'summer has come! @ Chigu',              // Credit text to be displayed
+      url: 'https://www.pixiv.net/artworks/69618131'                // (Optional) URL link to the original artwork or artist's page
     }
   },
   favicon: [    // Leave this array empty to use the default favicon
