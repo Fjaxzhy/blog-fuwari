@@ -36,4 +36,4 @@
 
 > ### Sources of images used in this site
 > - [銀髪ツインテちゃん](ttps://x.com/nitaleg_/status/1219936307540922369) by [椎野せら](https://x.com/nitaleg_)
-> - [October 2024](https://www.pixiv.net/artworks/123862605) by [Gracile](https://www.pixiv.net/users/3434849)
+> - [summer has come!](https://www.pixiv.net/artworks/69618131) by [Chigu](https://www.pixiv.net/users/298993)
