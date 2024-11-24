@@ -47,8 +47,8 @@ export function FriendCardComponent(props, c) {
         .then(data => {
           const avatarEl = document.getElementById('${cardUuid}-avatar');
           const statusEl = document.getElementById('${cardUuid}-status');
-          avatarEl.style.backgroundImage = 'url(' + data.url + ')';
           if (data.code === 200) {
+            avatarEl.style.backgroundImage = 'url(' + data.url + ')';
             statusEl.classList.add("--s");
             statusEl.innerText = ' OK';
           } else {
