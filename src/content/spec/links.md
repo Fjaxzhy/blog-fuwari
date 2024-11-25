@@ -9,4 +9,4 @@
 
 ::friend{data="rescld|残云的学习笔记|https://www.rescld.cn|努力考研的舍友"}
 
-::friend{data="snowykami|Snowykami的博客|https://sfkm.me|后端很厉害的轻雪"}
+::friend{data="snowykami|Snowykami的博客|https://sfkm.me|后端很厉害的轻雪, 在CQUPT RedrockTeam后端研发部玩微服务和云原生"}
