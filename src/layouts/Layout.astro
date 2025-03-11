@@ -132,15 +132,15 @@ const bannerOffset =
 
 		<style define:vars={{ configHue }}></style>  <!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why -->
 
-		<script type="text/javascript">
+		<script is:inline type="text/javascript">
 			var _hmt = _hmt || [];
-			(() => {
-				var hm = document.createElement('script')
-				hm.src = 'https://hm.baidu.com/hm.js?86267ea51fd7a88360195e3a0b2285af'
-				var s = document.getElementsByTagName('script')[0]
-				s.parentNode.insertBefore(hm, s)
-			})()
-		</script>
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?86267ea51fd7a88360195e3a0b2285af";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
 
 	</head>
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
